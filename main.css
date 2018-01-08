@@ -197,7 +197,10 @@ i {
 	text-decoration: none;
 }
 .section-e-pic{
-	width: 100%;
+	text-align: center;
+	margin: auto;
+	display: block;
+	margin-bottom: 1em;
 }
 .connect span{
 	text-align: center;
