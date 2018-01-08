@@ -38,10 +38,14 @@ body{
 }
 .title-header ul li{
 	display: inline-block;
-	padding:0.5em;
+	padding:1em;
 	margin: 0;
-	border-right: 1px solid #D7D7D7;
+	border: 1px solid #D7D7D7;
 	list-style-type: none;
+}
+.title-header ul li h3{
+	padding: 0;
+	margin:0;
 }
 .title-header ul li:nth-child(1){
 	border-left: 1px solid #d7d7d7;
@@ -51,6 +55,7 @@ body{
 	text-decoration: none;
 	color: inherit;
 	padding:0.5em;
+	font-size: 1.5em;
 }
 .title-header ul li:hover{
 	background-color: #D7D7D7;
